@@ -1,0 +1,25 @@
+How to compile:
+
+Open IntelliJ IDEA (or any java ide)
+File → Open → Select project folder
+Right-click Main.java → Run 'Main.main()'
+Enter your program, type END when done
+
+Windows:
+cd C:\path\to\RecursiveDescentParser
+javac -d bin src\parser\*.java
+java -cp bin parser.Main
+
+mac:
+cd /path/to/RecursiveDescentParser
+javac -d bin src/parser/*.java
+java -cp bin parser.Main
+
+Example input:
+
+program
+x = 5;
+y = 10;
+z = x + y;
+end_program
+END
